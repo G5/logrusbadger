@@ -4,8 +4,8 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/Sirupsen/logrus"
-	"github.com/honeybadger-io/honeybadger-go"
+	honeybadger "github.com/honeybadger-io/honeybadger-go"
+	"github.com/sirupsen/logrus"
 )
 
 type Notification struct {

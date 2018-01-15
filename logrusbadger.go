@@ -3,8 +3,8 @@ package logrusbadger
 import (
 	"fmt"
 
-	"github.com/Sirupsen/logrus"
-	"github.com/honeybadger-io/honeybadger-go"
+	honeybadger "github.com/honeybadger-io/honeybadger-go"
+	"github.com/sirupsen/logrus"
 )
 
 type notifier interface {

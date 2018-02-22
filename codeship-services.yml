@@ -1,0 +1,8 @@
+logrusbadger:
+  build:
+    image: logrusbadger
+    dockerfile: ci/Dockerfile
+  cached: true
+  encrypted_env_file: ci/codeclimate.env.encrypted
+  volumes:
+    - ./coverage:/coverage

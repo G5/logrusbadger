@@ -1,0 +1,6 @@
+# Dependencies
+vendor/*
+
+# Test coverage artifacts
+c.out
+coverage/*
